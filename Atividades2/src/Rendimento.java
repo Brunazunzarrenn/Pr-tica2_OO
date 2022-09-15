@@ -41,7 +41,7 @@ public void setNumMes(int numMes) {
 	  for (int i=0;i<getNumMes();i++)
 	  {
 		  rendimentoMes=rendimentoMes*getTaxaRendimento()/100+rendimentoMes;
-				  System.out.println("Mes " + (i+1) + " : " + rendimentoMes);
+				  System.out.printf("Mes  %d: %.2f\n" ,(i+1) , rendimentoMes);
 	  }
   }
 }
